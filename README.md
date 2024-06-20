@@ -26,4 +26,6 @@ Projects page:
 
 Technologies used - HTML, CSS, Tailwind CSS, JavaScript, React, Nodejs, Vite, Three.js, Netlify
 
+Thank you yt/javascriptMastery for providing the assets and a step-by-step guide to using three.js to build this portfolio.
+
 
