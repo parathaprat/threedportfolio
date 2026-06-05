@@ -28,7 +28,7 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
     e.preventDefault();
     setIsRotating(true);
 
-    const clientX = e.touches ? e.touches[0].clintX : e.clientX;
+    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
 
     lastX.current = clientX;
   };
@@ -44,7 +44,7 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
     e.preventDefault();
 
     if (isRotating) {
-      const clientX = e.touches ? e.touches[0].clintX : e.clientX;
+      const clientX = e.touches ? e.touches[0].clientX : e.clientX;
 
       const delta = (clientX - lastX.current) / viewport.width;
 

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="ag" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366f1" />
+      <stop offset="1" stop-color="#a855f7" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#ag)" />
+  <!-- workflow graph edges -->
+  <g stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.85">
+    <line x1="40" y1="46" x2="70" y2="40" />
+    <line x1="70" y1="40" x2="92" y2="62" />
+    <line x1="70" y1="40" x2="58" y2="86" />
+  </g>
+  <!-- nodes -->
+  <g fill="#ffffff">
+    <circle cx="40" cy="46" r="9" />
+    <circle cx="70" cy="40" r="9" />
+    <circle cx="92" cy="62" r="9" />
+    <circle cx="58" cy="86" r="9" />
+  </g>
+  <!-- AI spark -->
+  <path d="M96 26l2.4 6 6 2.4-6 2.4L96 43l-2.4-6L88 34.4l6-2.4z" fill="#ffffff" />
+</svg>

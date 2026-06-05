@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="kf" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ff6a5f" />
+      <stop offset="1" stop-color="#ff2d6f" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#kf)" />
+  <!-- film-frame notches -->
+  <g fill="#ffffff" opacity="0.55">
+    <rect x="17" y="36" width="7" height="9" rx="2" />
+    <rect x="17" y="59" width="7" height="9" rx="2" />
+    <rect x="104" y="36" width="7" height="9" rx="2" />
+    <rect x="104" y="59" width="7" height="9" rx="2" />
+  </g>
+  <!-- play -->
+  <path d="M52 36c0-2.6 2.8-4.2 5-2.9l30 18c2.2 1.3 2.2 4.5 0 5.8l-30 18c-2.2 1.3-5-.3-5-2.9z" fill="#ffffff" />
+  <!-- chapter segments -->
+  <g fill="#ffffff">
+    <rect x="38" y="98" width="24" height="6" rx="3" />
+    <rect x="66" y="98" width="14" height="6" rx="3" opacity="0.85" />
+    <rect x="84" y="98" width="7" height="6" rx="3" opacity="0.7" />
+  </g>
+</svg>

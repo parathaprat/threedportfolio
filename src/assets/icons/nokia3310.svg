@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="nk" x1="0" y1="0" x2="0" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3b5bdb" />
+      <stop offset="1" stop-color="#1e3a8a" />
+    </linearGradient>
+  </defs>
+  <rect x="36" y="8" width="56" height="112" rx="20" fill="url(#nk)" />
+  <!-- LCD -->
+  <rect x="46" y="19" width="36" height="30" rx="4" fill="#aecd6a" />
+  <!-- nav / menu key -->
+  <rect x="53" y="55" width="22" height="11" rx="5.5" fill="#dbe3ee" />
+  <!-- keypad -->
+  <g fill="#cbd5e1">
+    <rect x="46" y="73" width="10" height="6" rx="3" />
+    <rect x="59" y="73" width="10" height="6" rx="3" />
+    <rect x="72" y="73" width="10" height="6" rx="3" />
+    <rect x="46" y="84" width="10" height="6" rx="3" />
+    <rect x="59" y="84" width="10" height="6" rx="3" />
+    <rect x="72" y="84" width="10" height="6" rx="3" />
+    <rect x="46" y="95" width="10" height="6" rx="3" />
+    <rect x="59" y="95" width="10" height="6" rx="3" />
+    <rect x="72" y="95" width="10" height="6" rx="3" />
+    <rect x="46" y="106" width="10" height="6" rx="3" />
+    <rect x="59" y="106" width="10" height="6" rx="3" />
+    <rect x="72" y="106" width="10" height="6" rx="3" />
+  </g>
+</svg>

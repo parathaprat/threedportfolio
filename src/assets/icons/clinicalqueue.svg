@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="cq" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10b981" />
+      <stop offset="1" stop-color="#0ea5a4" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="url(#cq)" />
+  <!-- prioritized queue rows -->
+  <g fill="#ffffff">
+    <circle cx="38" cy="44" r="5" />
+    <rect x="50" y="40" width="46" height="8" rx="4" />
+    <circle cx="38" cy="66" r="5" opacity="0.92" />
+    <rect x="50" y="62" width="38" height="8" rx="4" opacity="0.92" />
+    <circle cx="38" cy="88" r="5" opacity="0.8" />
+    <rect x="50" y="84" width="30" height="8" rx="4" opacity="0.8" />
+  </g>
+  <!-- priority spark -->
+  <path d="M96 30l2.6 6.4 6.4 2.6-6.4 2.6L96 54l-2.6-6.4L87 45l6.4-2.6z" fill="#ffffff" />
+</svg>
